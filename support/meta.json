@@ -1,0 +1,9 @@
+{
+  "descriptions": {
+    "format": "Known formats:\n  - iBeacon\n  - Eddystone UID\n  - AltBeacon.\nBeacon tool tries to be smart about spelling, e.g. 'Eddystone-UID', 'eddystone uid' and 'eddystoneUid' will all match Eddystone UID.",
+    "pretty": "If present, pretty print the output.",
+    "payload": "E.g. 'DAD57D8F-F2BE-4FBF-9E7A-F1CA168EA150'\nBeacon Tool is not case sensitive and does not care about dashes.",
+    "quiet": "If present do not print verbose information.",
+    "formatting": "Output formatting."
+  }
+}
