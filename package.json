@@ -1,0 +1,55 @@
+{
+  "name": "beacon-tool-cli",
+  "version": "1.0.0",
+  "description": "CLI to beacon-tool.",
+  "main": "index.js",
+  "bin": {
+    "bt": "./index.js"
+  },
+  "engines": {
+    "node": ">=8.11.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --recursive \"./{,!(node_modules)/**/}*.test.js\"",
+    "tdd": "mocha --recursive --watch \"./{,!(node_modules)/**/}*.test.js\"",
+    "lint": "eslint -c .eslintrc.json './{,!(node_modules)/**/*.js}'",
+    "precommit": "npm run lint && npm test",
+    "prepush": "npm run lint && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haensl/beacon-tool-cli.git"
+  },
+  "keywords": [
+    "beaconing",
+    "beacon",
+    "bluetooth",
+    "tool",
+    "ibeacon",
+    "altbeacon",
+    "eddystone",
+    "tools"
+  ],
+  "author": {
+    "name": "HP Dietz",
+    "email": "h.p.dietz@gmail.com",
+    "twitter": "@h_p_d",
+    "url": "https://hpdietz.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haensl/beacon-tool-cli/issues"
+  },
+  "homepage": "https://github.com/haensl/beacon-tool-cli#readme",
+  "dependencies": {
+    "beacon-tool": "^1.0.2",
+    "yargs": "^12.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.2.0",
+    "husky": "^0.14.3",
+    "mocha": "^5.2.0"
+  }
+}
