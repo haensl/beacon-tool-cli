@@ -1,6 +1,6 @@
 {
   "name": "beacon-tool-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI to beacon-tool.",
   "main": "index.js",
   "bin": {
@@ -13,9 +13,13 @@
     "start": "node index.js",
     "test": "mocha --recursive \"./{,!(node_modules)/**/}*.test.js\"",
     "tdd": "mocha --recursive --watch \"./{,!(node_modules)/**/}*.test.js\"",
-    "lint": "eslint -c .eslintrc.json './{,!(node_modules)/**/*.js}'",
-    "precommit": "npm run lint && npm test",
-    "prepush": "npm run lint && npm test"
+    "lint": "eslint -c .eslintrc.json './{,!(node_modules)/**/*.js}'"
+  },
+  "husky": {
+    "hooks": {
+      "precommit": "npm run lint && npm test",
+      "prepush": "npm run lint && npm test"
+    }
   },
   "repository": {
     "type": "git",
@@ -43,13 +47,13 @@
   },
   "homepage": "https://github.com/haensl/beacon-tool-cli#readme",
   "dependencies": {
-    "beacon-tool": "^1.1.1",
-    "yargs": "^12.0.5"
+    "beacon-tool": "^1.1.2"
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "eslint": "^5.13.0",
-    "husky": "^0.14.3",
-    "mocha": "^5.2.0"
+    "eslint": "^6.7.2",
+    "husky": "^3.1.0",
+    "mocha": "^6.2.2",
+    "yargs": "^15.0.2"
   }
 }
