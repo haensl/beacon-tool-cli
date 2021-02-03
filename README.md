@@ -1,9 +1,8 @@
-# beacon-tool-cli
+# beacon-tool-cli [![CircleCI](https://circleci.com/gh/haensl/minify-inline-json.svg?style=svg)](https://circleci.com/gh/haensl/minify-inline-json)
+
 CLI for [beacon-tool](https://github.com/haensl/beacon-tool). A collection of bluetooth beacon signal uitiliy functions.
 
 [![NPM](https://nodei.co/npm/beacon-tool-cli.png?downloads=true)](https://nodei.co/npm/beacon-tool-cli/)
-
-[![Build Status](https://travis-ci.org/haensl/beacon-tool-cli.svg?branch=master)](https://travis-ci.org/haensl/beacon-tool-cli)
 
 ## Features
 
