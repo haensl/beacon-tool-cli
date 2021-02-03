@@ -242,11 +242,10 @@ jobs:
       - image: circleci/node:lts
     steps:
       - init
-      - extract-versions
       - run:
           name: install module
           command: |
-            sudo npm i -g beacon-tool-cli@${VERSION}
+            sudo npm i -g beacon-tool-cli
       - run:
           name: test module
           command: |
