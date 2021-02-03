@@ -1,4 +1,4 @@
-# beacon-tool-cli [![CircleCI](https://circleci.com/gh/haensl/minify-inline-json.svg?style=svg)](https://circleci.com/gh/haensl/minify-inline-json)
+# beacon-tool-cli [![CircleCI](https://circleci.com/gh/haensl/beacon-tool-cli.svg?style=svg)](https://circleci.com/gh/haensl/beacon-tool-cli)
 
 CLI for [beacon-tool](https://github.com/haensl/beacon-tool). A collection of bluetooth beacon signal uitiliy functions.
 
