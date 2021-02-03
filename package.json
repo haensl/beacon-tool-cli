@@ -11,7 +11,7 @@
   },
   "scripts": {
     "lint": "eslint './{,!(node_modules)/**/*.js}'",
-    "lint:ci": "eslint --format junit -o test-results/eslint/results.xml './{,!(node_modules)/**/*.js}",
+    "lint:ci": "eslint --format junit -o test-results/eslint/results.xml './{,!(node_modules)/**/*.js}'",
     "start": "node index.js",
     "tdd": "mocha --recursive --watch \"./{,!(node_modules)/**/}*.test.js\"",
     "test": "mocha --recursive \"./{,!(node_modules)/**/}*.test.js\"",
