@@ -246,7 +246,7 @@ jobs:
       - run:
           name: install module
           command: |
-            npm i -g beacon-tool-cli
+            sudo npm i -g beacon-tool-cli
       - run:
           name: test module
           command: |

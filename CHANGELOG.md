@@ -1,3 +1,6 @@
+## 1.1.1
+* [#15: Fix package test.](https://github.com/haensl/beacon-tool-cli/issues/15)
+
 ## 1.1.0
 * [#13: Migrate to CircleCI.](https://github.com/haensl/beacon-tool-cli/issues/13)
 
