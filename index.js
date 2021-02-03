@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 const yargs = require('yargs');
 const beaconTool = require('beacon-tool');
 const formatParser = require('./services/parser/format');
