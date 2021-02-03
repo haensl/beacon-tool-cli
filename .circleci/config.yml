@@ -184,7 +184,7 @@ jobs:
       - run:
           name: install module
           command: |
-            npm i -g ~/beacon-tool-cli/beacon-tool-cli.tgz
+            sudo npm i -g ~/beacon-tool-cli/beacon-tool-cli.tgz
       - run:
           name: test module
           working_directory: /tmp/test-app
