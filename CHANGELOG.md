@@ -1,3 +1,6 @@
+## 1.1.6
+* [#24: Update dependencies.](https://github.com/haensl/beacon-tool-cli/issues/24)
+
 ## 1.1.5
 * [#22: Update dependencies.](https://github.com/haensl/beacon-tool-cli/issues/22)
 
