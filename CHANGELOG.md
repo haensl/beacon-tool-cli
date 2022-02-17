@@ -1,3 +1,7 @@
+## 1.1.8
+* [#28: Add funding information.](https://github.com/haensl/beacon-tool-cli/issues/28)
+* Update dependencies.
+
 ## 1.1.7
 * [#26: Update dependencies.](https://github.com/haensl/beacon-tool-cli/issues/26)
 

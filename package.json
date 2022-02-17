@@ -1,6 +1,6 @@
 {
   "name": "beacon-tool-cli",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "CLI to beacon-tool.",
   "main": "index.js",
   "bin": {
@@ -53,6 +53,7 @@
     "twitter": "@h_p_d",
     "url": "https://hpdietz.com"
   },
+  "funding": "https://github.com/sponsors/haensl",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/haensl/beacon-tool-cli/issues"
